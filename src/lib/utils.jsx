@@ -2,8 +2,8 @@ import React from 'react'
 import { twMerge } from 'tailwind-merge';
 import clsx from 'clsx';
 
-const utils = (...inputs) => {
+const cn = (...inputs) => {
   return twMerge(clsx(inputs));
 }
 
-export default utils
+export default cn
